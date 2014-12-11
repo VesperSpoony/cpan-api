@@ -13,7 +13,6 @@ use Test::Aggregate::Nested 0.371 ();
 
 use CPAN::Faker 0.010;
 use Config::General;
-use Search::Elasticsearch;
 use File::Copy;
 use MetaCPAN::Script::Author;
 use MetaCPAN::Script::Mapping;
@@ -21,6 +20,7 @@ use MetaCPAN::Script::Release;
 use MetaCPAN::Script::Runner;
 use MetaCPAN::Script::Tickets;
 use MetaCPAN::Server::Test;
+use Search::Elasticsearch;
 
 use Module::Faker 0.015 ();    # Generates META.json.
 use Path::Class qw(dir file);
