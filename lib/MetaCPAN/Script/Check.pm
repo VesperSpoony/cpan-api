@@ -3,7 +3,7 @@ package MetaCPAN::Script::Check;
 use strict;
 use warnings;
 
-use ElasticSearch;
+use Search::Elasticsearch;
 use File::Spec::Functions qw(catfile);
 use Log::Contextual qw( :log );
 use Moose;

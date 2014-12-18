@@ -3,7 +3,7 @@ package MetaCPAN::Role::Common;
 use strict;
 use warnings;
 
-use ElasticSearch;
+use Search::Elasticsearch;
 use ElasticSearchX::Model::Document::Types qw(:all);
 use FindBin;
 use Log::Contextual qw( set_logger :dlog );
